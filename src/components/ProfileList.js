@@ -3,11 +3,11 @@ import Card from './Card'
 import PilotListing from './PilotListing'
 import PilotPage from './PilotListing'
 
-const ProfileList = ( { data } ) => {
+const ProfileList = ( { data }) => {
   return (
     <div className='AllPilots'>
       <div className='card-deck'>
-        {data.map((people, index) => (<Card key={index} name={people.name} />))}
+        {data.map((people, index) => { return ((<Card key={index} name={people.name} gender={people.gender} />))})}
       </div>
     </div>
   )

@@ -12,6 +12,7 @@ import NewPage from './pages/NewPage';
 import LoginPage from './pages/LoginPage';
 import FavouritePage from './pages/FavouritePage';
 import Login from './components/Login';
+import ProfileList from './components/ProfileList';
 
 function App() {
 

@@ -1,6 +1,4 @@
-import React, {useState, useEffect} from 'react'
-import { useSelector, useDispatch } from 'react-redux';
-import { logout, selectUser } from '../features/userSlice';
+import React from 'react'
 import PilotListing from '../components/PilotListing';
 import Navbar from '../components/Navbar';
 

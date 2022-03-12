@@ -20,9 +20,8 @@ const Navbar = () => {
             </button>
             <div className="collapse navbar-collapse" id="navbar">
                 <div className="navbar-nav">
+                    <Link className="nav-item nav-link" to="/">Home</Link>
                     <Link className="nav-item nav-link" to="/pilot">Pilots</Link>
-                    <Link className="nav-item nav-link" to="/favourites">Favourite</Link>
-                    <Link className="nav-item nav-link" to="/new">New</Link>
                     <div className='username'>
                         <p>Welcome <span>{user ? user.username : "Guest"}</span></p>
                     </div>
