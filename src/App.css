@@ -1,0 +1,15 @@
+.formbody {
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-content: center;
+  padding-top: 5%;
+}
+
+.title {
+  text-align: center;
+}
+
+.username {
+  color: white;
+}
